@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sloujamz – Artist Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0a0f2c, #ff2e93);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: rgba(10, 15, 44, 0.85);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(255, 46, 147, 0.6);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 30px;
+            color: #ff2e93;
+            text-shadow: 0 0 10px #ff2e93;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: normal;
+            color: #ffffff;
+            opacity: 0.85;
+        }
+
+        p {
+            margin: 20px 0;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        .email {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #ff2e93;
+            color: #0a0f2c;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 0 15px #ff2e93;
+        }
+
+        .email:hover {
+            background: #ff5bb0;
+            box-shadow: 0 0 25px #ff5bb0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>sloujamz</h1>
+    <h2>George Kaminski</h2>
+    <p>Artist profile page</p>
+
+    <a class="email" href="mailto:sloujamz@yandex.ru">
+        sloujamz@yandex.ru
+    </a>
+</div>
+
+</body>
+</html>
